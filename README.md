@@ -7,4 +7,4 @@ This project will solve the problem of creating a custom music playlist that bes
   -Facebook
   -Spotify
   -Costom created server API
-  (https://github.com/ccarnley7/facebookEventMusic/raw/master/slide1.pptx)
+  (https://raw.githubusercontent.com/ccarnley7/facebookEventMusic/master/Slide1.jpg)

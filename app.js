@@ -5,11 +5,12 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-var passport = require('passport')
-    , OAuth2Strategy = require('passport-oauth').OAuth2Strategy;
-var mongo = require('mongodb');
-var monk = require('monk');
-var db = monk('localhost:27017/facebookspotify');
+
+var passport = require('passport'), OAuth2Strategy = require('passport-oauth').OAuth2Strategy;
+
+var dbConfig = require('./db.js');
+var mongoose = require('mongoose');
+mongoose.connect(dbConfig.url);
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
@@ -31,10 +32,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use(function(req,res,next){
-    req.db = db;
-    next();
-});
+
 passport.use('spotify', new OAuth2Strategy({
         authorizationURL: 'https://accounts.spotify.com/authorize',
         tokenURL: 'https://www.provider.com/oauth2/token',
@@ -43,25 +41,9 @@ passport.use('spotify', new OAuth2Strategy({
         callbackURL: 'http://carnley.me/createPlaylist'
     },
     function(accessToken, refreshToken, profile, done) {
-        var db = req.db;
-        var collection = db.get('user');
-        var user = {
-            "userID" : profile.id,
-            "name" : profile.name,
-            "accessToken" : accessToken,
-            "refreshToken" : refreshToken,
-            "emails" : profile.emails
-        };
-        collection.insert(user , function(err, doc){
-            if(err)
-            {
-                return done(err, null);
-            }
-            else
-            {
-                return done(err, user);
-            }
-        })
+        User.findOrCreate({exampleId: profile.id}, function(err, user) {
+            done(err, user);
+        });
     }
 ));
 

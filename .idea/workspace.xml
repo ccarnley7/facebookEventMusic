@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26de6a3c-7c89-4890-bc25-f54ee3d763a0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/user.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/spotifyLogin.js" afterPath="$PROJECT_DIR$/routes/spotifyLogin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facebookEventMusic.iml" afterPath="$PROJECT_DIR$/facebookEventMusic.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FacebookSublimeApp.iws" />
@@ -30,31 +32,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1904">
-              <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.38526914" vertical-offset="510" max-vertical-offset="1598">
+              <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="www" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/www">
+      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1632">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spotifyLogin.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="db.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spotifyLogin.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/spotifyLogin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13783784" vertical-offset="0" max-vertical-offset="370">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,8 +75,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="408">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="442">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -93,7 +105,7 @@
       <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="255">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
               <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
@@ -129,8 +141,10 @@
         <option value="$PROJECT_DIR$/routes/facebookCallback.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/bin/www" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/spotifyLogin.js" />
+        <option value="$PROJECT_DIR$/db.js" />
+        <option value="$PROJECT_DIR$/models/user.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -147,7 +161,7 @@
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="false" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
@@ -198,6 +212,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facebookEventMusic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facebookEventMusic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="bin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -225,6 +253,1244 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Carnley\Documents\Git\facebookEventMusic" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree">
+    <UpdateInfo date="Moments ago" ActionInfo="_Update">
+      <UpdatedFiles>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated from server" />
+          <option name="myStatusName" value="Changed on server" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CHANGED_ON_SERVER" />
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Updated" />
+            <option name="myStatusName" value="Changed" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="UPDATED" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/package.json</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Created" />
+            <option name="myStatusName" value="Created" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="CREATED" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/.travis.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/HISTORY.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/conf.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/lib/admin.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/lib/aggregation_cursor.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/lib/bulk/common.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/lib/bulk/ordered.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/lib/bulk/unordered.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/lib/collection.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/lib/command_cursor.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/lib/cursor.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/lib/db.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/lib/gridfs/chunk.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/lib/gridfs/grid_store.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/lib/mongo_client.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/lib/mongos.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/lib/read_preference.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/lib/replset.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/lib/server.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/lib/topology_base.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/lib/url_parser.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/lib/utils.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/.travis.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/HISTORY.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/TESTING.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/conf.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/lib/auth/gssapi.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/lib/auth/mongocr.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/lib/auth/plain.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/lib/auth/scram.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/lib/auth/sspi.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/lib/auth/x509.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/lib/connection/commands.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/lib/connection/logger.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/lib/connection/utils.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/lib/error.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/lib/tools/smoke_plugin.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/command_result.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/mongos.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/read_preference.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/replset.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/replset_state.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/session.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/strategies/ping.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/lib/wireprotocol/2_4_support.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/lib/wireprotocol/2_6_support.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/lib/wireprotocol/commands.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/.bin/mkdirp</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/.bin/rimraf</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/.travis.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/browser_build/bson.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/browser_build/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/build/config.gypi</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/builderror.log</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/binary.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/binary_parser.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/bson.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/bson_new.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/code.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/db_ref.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/double.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/float_parser.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/long.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/max_key.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/min_key.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/objectid.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/symbol.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/timestamp.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/.npmignore</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/HISTORY</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/binding.gyp</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/build/Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/build/Release/.deps/Release/bson.node.d</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/build/Release/.deps/Release/obj.target/bson.node.d</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/build/Release/.deps/Release/obj.target/bson/ext/bson.o.d</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/build/Release/bson.node</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/build/Release/linker.lock</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/build/Release/obj.target/bson.node</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/build/Release/obj.target/bson/ext/bson.o</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/build/binding.Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/build/bson.target.mk</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/build/config.gypi</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/builderror.log</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/ext/.npmignore</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/ext/Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/ext/bson.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/ext/bson.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/ext/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/ext/win32/ia32/bson.node</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/ext/win32/x64/bson.node</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/ext/wscript</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/lib/bson/binary.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/lib/bson/binary_parser.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/lib/bson/code.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/lib/bson/db_ref.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/lib/bson/double.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/lib/bson/long.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/lib/bson/max_key.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/lib/bson/min_key.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/lib/bson/objectid.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/lib/bson/symbol.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/lib/bson/timestamp.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/node_modules/nan/.dntrc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/node_modules/nan/CHANGELOG.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/node_modules/nan/LICENSE.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/node_modules/nan/appveyor.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/node_modules/nan/include_dirs.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/node_modules/nan/nan.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/node_modules/nan/nan_implementation_12_inl.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/node_modules/nan/nan_implementation_pre_12_inl.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/node_modules/nan/nan_new.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/node_modules/nan/nan_string_bytes.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/node_modules/nan/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/test/node/bson_array_test.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/test/node/bson_test.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/test/node/data/test_gs_weird_bug.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/test/node/test_full_bson.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/test/node/to_bson_test.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/bson-ext/test/node/tools/utils.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/tools/gleak.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/binding.gyp</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/build/Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/build/binding.Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/build/config.gypi</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/build/kerberos.target.mk</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/builderror.log</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/auth_processes/mongodb.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/base64.c</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/base64.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/kerberos.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/kerberos.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/kerberos.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/kerberos_context.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/kerberos_context.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/kerberosgss.c</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/kerberosgss.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/sspi.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/base64.c</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/base64.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/kerberos.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/kerberos.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/kerberos_sspi.c</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/kerberos_sspi.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/worker.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/worker.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/wrappers/security_buffer.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/wrappers/security_buffer.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/wrappers/security_buffer.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/wrappers/security_buffer_descriptor.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/wrappers/security_buffer_descriptor.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/wrappers/security_buffer_descriptor.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/wrappers/security_context.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/wrappers/security_context.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/wrappers/security_context.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/wrappers/security_credentials.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/wrappers/security_credentials.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/wrappers/security_credentials.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/worker.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/worker.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/node_modules/nan/.dntrc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/node_modules/nan/CHANGELOG.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/node_modules/nan/LICENSE.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/node_modules/nan/appveyor.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/node_modules/nan/include_dirs.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/node_modules/nan/nan.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/node_modules/nan/nan_implementation_12_inl.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/node_modules/nan/nan_implementation_pre_12_inl.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/node_modules/nan/nan_new.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/node_modules/nan/nan_string_bytes.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/node_modules/nan/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/test/kerberos_tests.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/test/kerberos_win32_test.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/test/win32/security_buffer_descriptor_tests.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/test/win32/security_buffer_tests.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/test/win32/security_credentials_tests.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/.npmignore</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/.travis.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/bin/cmd.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/bin/usage.txt</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/examples/pow.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/.travis.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/example/parse.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/readme.markdown</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/test/dash.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/test/default_bool.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/test/dotted.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/test/long.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/test/parse.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/test/parse_modified.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/test/short.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/test/whitespace.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/readme.markdown</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/chmod.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/clobber.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/mkdirp.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/opts_fs.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/opts_fs_sync.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/perm.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/perm_sync.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/race.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/rel.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/return.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/return_sync.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/root.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/sync.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/umask.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/umask_sync.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/rimraf/AUTHORS</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/rimraf/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/rimraf/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/rimraf/bin.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/rimraf/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/rimraf/rimraf.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/rimraf/test/run.sh</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/rimraf/test/setup.sh</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/rimraf/test/test-async.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/node_modules/rimraf/test/test-sync.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/mongodb-core/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/.npmignore</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/duplex.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/lib/_stream_duplex.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/lib/_stream_passthrough.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/lib/_stream_readable.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/lib/_stream_transform.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/lib/_stream_writable.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/float.patch</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/lib/util.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/util.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/inherits.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/inherits_browser.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/test.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/build/build.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/component.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/.npmignore</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/passthrough.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/readable.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/transform.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/writable.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/t.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongodb/wercker.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/.npmignore</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/.travis.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/CONTRIBUTING.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/History.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/contRun.sh</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/aggregate/aggregate.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/aggregate/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/aggregate/person.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/doc-methods.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/express/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/express/connection-sharing/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/express/connection-sharing/app.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/express/connection-sharing/modelA.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/express/connection-sharing/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/express/connection-sharing/routes.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/geospatial/geoJSONSchema.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/geospatial/geoJSONexample.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/geospatial/geospatial.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/geospatial/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/geospatial/person.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/globalschemas/gs_example.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/globalschemas/person.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/lean/lean.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/lean/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/lean/person.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/mapreduce/mapreduce.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/mapreduce/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/mapreduce/person.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/population/population-across-three-collections.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/population/population-basic.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/population/population-of-existing-doc.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/population/population-of-multiple-existing-docs.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/population/population-options.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/population/population-plain-objects.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/promises/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/promises/person.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/promises/promise.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/querybuilder/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/querybuilder/person.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/querybuilder/querybuilder.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/replicasets/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/replicasets/person.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/replicasets/replica-sets.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/schema/schema.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/schema/storing-schemas-as-json/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/schema/storing-schemas-as-json/schema.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/statics/person.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/examples/statics/statics.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/aggregate.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/browser.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/browserDocument.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/cast.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/collection.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/connection.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/connectionstate.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/document.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/document_provider.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/SPEC.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/binary.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/objectid.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/error.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/error/browserMissingSchema.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/error/cast.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/error/divergentArray.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/error/messages.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/error/missingSchema.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/error/overwriteModel.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/error/validation.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/error/validator.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/error/version.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/internal.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/model.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/promise.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/query.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/queryhelpers.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/querystream.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/schema.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/array.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/boolean.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/buffer.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/date.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/documentarray.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/mixed.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/number.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/objectid.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/string.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/schematype.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/services/updateValidators.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/statemachine.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/types/array.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/types/buffer.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/types/documentarray.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/types/embedded.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/types/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/types/objectid.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/utils.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/lib/virtualtype.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/async/.travis.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/async/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/async/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/async/component.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/async/lib/async.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/async/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks-fixed/.npmignore</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks-fixed/Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks-fixed/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks-fixed/hooks.alt.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks-fixed/hooks.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks-fixed/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks-fixed/test.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/kareem/.npmignore</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/kareem/.travis.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/kareem/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/kareem/Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/kareem/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/kareem/docs.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/kareem/gulpfile.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/kareem/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/kareem/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/kareem/test/examples.test.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/kareem/test/post.test.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/kareem/test/pre.test.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/kareem/test/wrap.test.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/.travis.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/HISTORY.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/conf.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/admin.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/aggregation_cursor.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/bulk/common.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/bulk/ordered.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/collection.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/command_cursor.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/cursor.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/db.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/gridfs/chunk.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/gridfs/grid_store.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongos.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/read_preference.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/replset.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/server.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/topology_base.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/url_parser.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/utils.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/.travis.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/HISTORY.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/TESTING.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/conf.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/auth/gssapi.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/auth/mongocr.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/auth/plain.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/auth/scram.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/auth/sspi.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/auth/x509.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/connection/commands.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/connection/logger.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/connection/utils.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/error.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/tools/smoke_plugin.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/command_result.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/mongos.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/read_preference.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/replset.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/replset_state.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/session.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/strategies/ping.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/wireprotocol/2_4_support.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/wireprotocol/2_6_support.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/wireprotocol/commands.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/.bin/mkdirp</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/.bin/rimraf</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/.travis.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/HISTORY</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/binding.gyp</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/browser_build/bson.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/browser_build/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/build/Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/build/Release/.deps/Release/bson.node.d</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/build/Release/.deps/Release/obj.target/bson.node.d</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/build/Release/.deps/Release/obj.target/bson/ext/bson.o.d</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/build/Release/bson.node</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/build/Release/linker.lock</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/build/Release/obj.target/bson.node</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/build/Release/obj.target/bson/ext/bson.o</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/build/binding.Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/build/bson.target.mk</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/build/config.gypi</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/build_browser.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/builderror.log</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/ext/Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/ext/bson.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/ext/bson.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/ext/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/ext/win32/ia32/bson.node</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/ext/win32/x64/bson.node</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/ext/wscript</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/binary.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/binary_parser.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/bson.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/bson_new.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/code.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/db_ref.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/double.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/float_parser.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/long.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/max_key.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/min_key.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/objectid.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/symbol.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/lib/bson/timestamp.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/nan/.dntrc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/nan/CHANGELOG.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/nan/LICENSE.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/nan/appveyor.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/nan/include_dirs.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/nan/nan.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/nan/nan_implementation_12_inl.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/nan/nan_implementation_pre_12_inl.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/nan/nan_new.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/nan/nan_string_bytes.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/node_modules/nan/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/tools/gleak.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/tools/jasmine-1.1.0/MIT.LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/tools/jasmine-1.1.0/jasmine-html.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/tools/jasmine-1.1.0/jasmine.css</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/tools/jasmine-1.1.0/jasmine.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/bson/tools/jasmine-1.1.0/jasmine_favicon.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/binding.gyp</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/build/Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/build/binding.Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/build/config.gypi</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/build/kerberos.target.mk</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/builderror.log</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/auth_processes/mongodb.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/base64.c</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/base64.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/kerberos.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/kerberos.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/kerberos.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/kerberos_context.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/kerberos_context.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/kerberosgss.c</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/kerberosgss.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/sspi.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/base64.c</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/base64.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/kerberos.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/kerberos.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/kerberos_sspi.c</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/kerberos_sspi.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/worker.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/worker.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/wrappers/security_buffer.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/wrappers/security_buffer.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/wrappers/security_buffer.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/wrappers/security_buffer_descriptor.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/wrappers/security_buffer_descriptor.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/wrappers/security_buffer_descriptor.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/wrappers/security_context.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/wrappers/security_context.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/wrappers/security_context.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/wrappers/security_credentials.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/wrappers/security_credentials.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/win32/wrappers/security_credentials.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/worker.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/lib/worker.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/node_modules/nan/.dntrc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/node_modules/nan/CHANGELOG.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/node_modules/nan/LICENSE.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/node_modules/nan/appveyor.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/node_modules/nan/include_dirs.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/node_modules/nan/nan.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/node_modules/nan/nan_implementation_12_inl.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/node_modules/nan/nan_implementation_pre_12_inl.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/node_modules/nan/nan_new.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/node_modules/nan/nan_string_bytes.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/node_modules/nan/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/test/kerberos_tests.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/test/kerberos_win32_test.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/test/win32/security_buffer_descriptor_tests.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/test/win32/security_buffer_tests.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/kerberos/test/win32/security_credentials_tests.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/.npmignore</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/.travis.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/bin/cmd.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/bin/usage.txt</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/examples/pow.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/.travis.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/example/parse.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/readme.markdown</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/test/dash.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/test/default_bool.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/test/dotted.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/test/long.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/test/parse.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/test/parse_modified.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/test/short.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/node_modules/minimist/test/whitespace.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/readme.markdown</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/chmod.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/clobber.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/mkdirp.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/opts_fs.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/opts_fs_sync.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/perm.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/perm_sync.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/race.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/rel.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/return.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/return_sync.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/root.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/sync.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/umask.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/mkdirp/test/umask_sync.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/rimraf/AUTHORS</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/rimraf/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/rimraf/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/rimraf/bin.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/rimraf/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/rimraf/rimraf.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/rimraf/test/run.sh</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/rimraf/test/setup.sh</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/rimraf/test/test-async.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/rimraf/test/test-sync.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/.npmignore</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/duplex.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/lib/_stream_duplex.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/lib/_stream_passthrough.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/lib/_stream_readable.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/lib/_stream_transform.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/lib/_stream_writable.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/float.patch</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/lib/util.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/util.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/inherits.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/inherits_browser.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/test.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/build/build.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/component.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/.npmignore</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/passthrough.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/readable.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/transform.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/writable.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/t.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/wercker.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/.npmignore</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/.travis.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/History.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/lib/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/test/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/.npmignore</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/.travis.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/History.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/lib/promise.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/test/promise.domain.test.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/test/promise.test.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/test/promises.Aplus.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/.npmignore</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/.travis.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/History.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/lib/collection/collection.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/lib/collection/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/lib/collection/node.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/lib/env.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/lib/mquery.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/lib/permissions.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/lib/utils.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/any.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/assert.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/async.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/bluebird.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/call_get.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/cancel.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/captured_trace.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/catch_filter.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/direct_resolve.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/each.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/errors.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/errors_api_rejection.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/es5.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/filter.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/finally.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/generators.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/join.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/map.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/nodeify.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/progress.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/promise.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/promise_array.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/promise_resolver.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/promisify.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/props.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/queue.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/race.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/reduce.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/schedule.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/settle.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/some.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/synchronous_inspection.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/thenables.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/timers.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/using.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/util.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/any.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/assert.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/async.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/bluebird.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/call_get.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/cancel.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/captured_trace.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/catch_filter.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/direct_resolve.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/each.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/errors.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/errors_api_rejection.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/es5.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/filter.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/finally.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/generators.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/join.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/map.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/nodeify.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/progress.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/promise.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/promise_array.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/promise_resolver.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/promisify.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/props.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/queue.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/race.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/reduce.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/schedule.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/settle.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/some.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/synchronous_inspection.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/thenables.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/timers.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/using.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/zalgo/util.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/zalgo.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/debug/Readme.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/debug/debug.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/debug/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/debug/lib/debug.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/debug/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/test/collection/browser.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/test/collection/mongo.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/test/collection/node.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/test/env.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/test/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/test/utils.test.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/.npmignore</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/ms.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/test/index.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/test/support/jquery.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/test/test.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/.npmignore</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/.travis.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/History.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/lib/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/strict.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/test/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/regexp-clone/.npmignore</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/regexp-clone/.travis.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/regexp-clone/History.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/regexp-clone/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/regexp-clone/Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/regexp-clone/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/regexp-clone/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/regexp-clone/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/regexp-clone/test/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/.npmignore</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/.travis.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/History.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/bench.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/component.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/lib/sliced.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/test/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/release-items.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/static.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/mongoose/website.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/.npmignore</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/.travis.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/History.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/lib/collection.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/lib/manager.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/lib/monk.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/lib/promise.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/lib/util.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/.gitmodules</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/.travis.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/CONTRIBUTING.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/Readme.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/admin.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/aggregation_cursor.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/auth/mongodb_cr.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/auth/mongodb_gssapi.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/auth/mongodb_plain.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/auth/mongodb_scram.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/auth/mongodb_sspi.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/auth/mongodb_x509.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/collection.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/collection/aggregation.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/collection/batch/common.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/collection/batch/ordered.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/collection/batch/unordered.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/collection/commands.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/collection/core.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/collection/geo.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/collection/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/collection/query.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/collection/shared.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/command_cursor.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/commands/base_command.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/commands/db_command.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/commands/delete_command.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/commands/get_more_command.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/commands/insert_command.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/commands/kill_cursor_command.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/commands/query_command.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/commands/update_command.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/connection/base.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/connection/connection.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/connection/connection_pool.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/connection/connection_utils.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/connection/mongos.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/connection/read_preference.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/connection/repl_set/ha.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/connection/repl_set/options.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/connection/repl_set/repl_set.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/connection/repl_set/repl_set_state.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/connection/repl_set/strategies/ping_strategy.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/connection/repl_set/strategies/statistics_strategy.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/connection/server.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/connection/server_capabilities.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/connection/url_parser.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/cursor.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/cursorstream.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/db.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/gridfs/chunk.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/gridfs/grid.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/gridfs/gridstore.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/gridfs/readstream.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/mongo_client.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/responses/mongo_reply.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/scope.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/lib/mongodb/utils.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/.travis.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/HISTORY</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/binding.gyp</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/browser_build/bson.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/browser_build/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/build/Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/build/Release/.deps/Release/bson.node.d</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/build/Release/.deps/Release/obj.target/bson.node.d</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/build/Release/.deps/Release/obj.target/bson/ext/bson.o.d</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/build/Release/bson.node</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/build/Release/linker.lock</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/build/Release/obj.target/bson.node</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/build/Release/obj.target/bson/ext/bson.o</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/build/binding.Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/build/bson.target.mk</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/build/config.gypi</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/build_browser.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/builderror.log</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/ext/Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/ext/bson.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/ext/bson.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/ext/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/ext/win32/ia32/bson.node</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/ext/win32/x64/bson.node</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/ext/wscript</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/lib/bson/binary.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/lib/bson/binary_parser.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/lib/bson/bson.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/lib/bson/bson_new.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/lib/bson/code.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/lib/bson/db_ref.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/lib/bson/double.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/lib/bson/float_parser.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/lib/bson/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/lib/bson/long.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/lib/bson/max_key.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/lib/bson/min_key.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/lib/bson/objectid.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/lib/bson/symbol.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/lib/bson/timestamp.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/node_modules/nan/.dntrc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/node_modules/nan/CHANGELOG.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/node_modules/nan/LICENSE.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/node_modules/nan/appveyor.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/node_modules/nan/include_dirs.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/node_modules/nan/nan.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/node_modules/nan/nan_implementation_12_inl.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/node_modules/nan/nan_implementation_pre_12_inl.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/node_modules/nan/nan_new.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/node_modules/nan/nan_string_bytes.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/node_modules/nan/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/tools/gleak.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/tools/jasmine-1.1.0/MIT.LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/tools/jasmine-1.1.0/jasmine-html.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/tools/jasmine-1.1.0/jasmine.css</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/tools/jasmine-1.1.0/jasmine.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/bson/tools/jasmine-1.1.0/jasmine_favicon.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/binding.gyp</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/build/Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/build/binding.Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/build/config.gypi</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/build/kerberos.target.mk</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/builderror.log</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/auth_processes/mongodb.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/base64.c</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/base64.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/kerberos.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/kerberos.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/kerberos.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/kerberos_context.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/kerberos_context.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/kerberosgss.c</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/kerberosgss.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/sspi.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/win32/base64.c</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/win32/base64.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/win32/kerberos.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/win32/kerberos.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/win32/kerberos_sspi.c</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/win32/kerberos_sspi.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/win32/worker.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/win32/worker.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_buffer.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_buffer.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_buffer.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_buffer_descriptor.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_buffer_descriptor.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_buffer_descriptor.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_context.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_context.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_context.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_credentials.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_credentials.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_credentials.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/worker.cc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/lib/worker.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/node_modules/nan/.dntrc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/node_modules/nan/CHANGELOG.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/node_modules/nan/LICENSE.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/node_modules/nan/appveyor.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/node_modules/nan/include_dirs.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/node_modules/nan/nan.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/node_modules/nan/nan_implementation_12_inl.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/node_modules/nan/nan_implementation_pre_12_inl.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/node_modules/nan/nan_new.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/node_modules/nan/nan_string_bytes.h</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/node_modules/nan/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/test/kerberos_tests.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/test/kerberos_win32_test.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/test/win32/security_buffer_descriptor_tests.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/test/win32/security_buffer_tests.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/kerberos/test/win32/security_credentials_tests.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/.npmignore</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/duplex.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/lib/_stream_duplex.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/lib/_stream_passthrough.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/lib/_stream_readable.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/lib/_stream_transform.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/lib/_stream_writable.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/float.patch</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/lib/util.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/util.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/inherits.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/inherits_browser.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/test.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/build/build.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/component.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/.npmignore</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/passthrough.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/readable.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/transform.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/node_modules/readable-stream/writable.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongodb/wercker.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/.jshintrc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/.npmignore</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/.travis.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/AUTHORS</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/History.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/Makefile</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/Readme.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/examples/admin.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/examples/close.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/examples/config.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/examples/generateId.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/examples/gridfs.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/examples/insert.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/examples/replSetBenchmark.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/examples/replset.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/examples/update.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/lib/admin.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/lib/collection.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/lib/constant.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/lib/cursor.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/lib/db.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/lib/grid.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/lib/grid_store.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/lib/helper.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/lib/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/lib/mongo_client.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/lib/utils.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mongoskin/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mpromise/.npmignore</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mpromise/.travis.yml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mpromise/History.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mpromise/LICENSE</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mpromise/README.md</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mpromise/index.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mpromise/lib/promise.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mpromise/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mpromise/test/promise.domain.test.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mpromise/test/promise.test.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/node_modules/mpromise/test/promises.Aplus.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/package.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/test/collection.test.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/test/common.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/test/monk.test.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/test/promise.test.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/node_modules/monk/test/promises-A.js</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Deleted" />
+            <option name="myStatusName" value="Deleted" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="true" />
+            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Restored" />
+            <option name="myStatusName" value="Will be restored" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="RESTORED" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Modified" />
+          <option name="myStatusName" value="Modified" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MODIFIED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Skipped" />
+          <option name="myStatusName" value="Skipped" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SKIPPED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with conflicts" />
+          <option name="myStatusName" value="Will be merged with conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_CONFLICTS" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with tree conflicts" />
+          <option name="myStatusName" value="Merged with tree conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with property conflicts" />
+          <option name="myStatusName" value="Will be merged with property conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged" />
+          <option name="myStatusName" value="Will be merged" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Not in repository" />
+          <option name="myStatusName" value="Not in repository" />
+          <option name="mySupportsDeletion" value="true" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UNKNOWN" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally added" />
+          <option name="myStatusName" value="Locally added" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_ADDED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally removed" />
+          <option name="myStatusName" value="Locally removed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_REMOVED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Switched" />
+          <option name="myStatusName" value="Switched" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SWITCHED" />
+        </FILE-GROUP>
+      </UpdatedFiles>
+    </UpdateInfo>
   </component>
   <component name="RunManager" selected="Node.js.bin\www">
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -490,7 +1756,7 @@
       <workItem from="1427821675139" duration="387000" />
       <workItem from="1427822080994" duration="11308000" />
       <workItem from="1427997696730" duration="3367000" />
-      <workItem from="1428001172763" duration="1370000" />
+      <workItem from="1428001172763" duration="2873000" />
     </task>
     <task id="LOCAL-00001" summary="Trying to get MongoDB integrated">
       <created>1427999391575</created>
@@ -504,17 +1770,23 @@
       <option name="project" value="LOCAL" />
       <updated>1428002241115</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ready to test the login take two">
+      <created>1428002553779</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1428002553779</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16432000" />
+    <option name="totallyTimeSpent" value="17935000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1346" height="695" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285968" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.330373" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -526,11 +1798,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285968" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291367" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29840142" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29840142" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19284603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3285968" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496112" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -540,7 +1813,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -560,7 +1832,8 @@
     </option>
     <MESSAGE value="Trying to get MongoDB integrated" />
     <MESSAGE value="Ready to test the login" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ready to test the login" />
+    <MESSAGE value="Ready to test the login take two" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ready to test the login take two" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -744,14 +2017,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
@@ -778,8 +2043,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="408">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="442">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -794,24 +2059,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/www">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1632">
+        <state vertical-scroll-proportion="0.36756757" vertical-offset="0" max-vertical-offset="1632">
           <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1904">
-          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/spotifyLogin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13783784" vertical-offset="0" max-vertical-offset="370">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/examples/population/population-across-three-collections.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3314121" vertical-offset="344" max-vertical-offset="2397">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38526914" vertical-offset="510" max-vertical-offset="1598">
+          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
           <folding />
         </state>
       </provider>

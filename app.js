@@ -42,7 +42,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 passport.use('spotify', new OAuth2Strategy({
         authorizationURL: 'https://accounts.spotify.com/authorize',
-        tokenURL: 'http://example.com',
+        tokenURL: 'https://accounts.spotify.com/api/token',
         clientID: '9932de46f05142d78e589f44b3cec17f',
         clientSecret: '089f6779318e41cca8d47c883b793d78',
         callbackURL: 'http://carnley.me/createPlaylist'

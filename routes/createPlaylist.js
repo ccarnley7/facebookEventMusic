@@ -1,10 +1,14 @@
 var express = require('express');
 var request = require('request');
+var http = require('http');
 var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-   /* request.post(
+
+    /*http.get('https://api.spotify.com/v1/me')
+
+    request.post(
         'https://api.spotify.com/v1/users/{user_id}/playlists',
         { form: { key: 'value' } },
         function (error, response, body) {
@@ -12,7 +16,8 @@ router.get('/', function(req, res, next) {
                 console.log(body)
             }
         }
-    );*/
+    );
+    request.get()*/
     res.send("test")
 });
 

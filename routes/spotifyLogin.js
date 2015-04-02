@@ -7,8 +7,8 @@ passport.use('spotify', new OAuth2Strategy({
         authorizationURL: 'https://accounts.spotify.com/authorize',
         tokenURL: 'https://www.provider.com/oauth2/token',
         clientID: '9932de46f05142d78e589f44b3cec17f',
-        clientSecret: 'secret',
-        callbackURL: 'http://127.0.0.1:3000/createPlaylist'
+        clientSecret: '089f6779318e41cca8d47c883b793d78',
+        callbackURL: 'http://carnley.me/createPlaylist'
     },
     function(accessToken, refreshToken, profile, done) {
         User.findOne({

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FacebookSublimeApp.iml" filepath="$PROJECT_DIR$/FacebookSublimeApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facebookEventMusic.iml" filepath="$PROJECT_DIR$/facebookEventMusic.iml" />
+    </modules>
+  </component>
+</project>

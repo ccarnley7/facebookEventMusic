@@ -8,9 +8,16 @@ var bodyParser = require('body-parser');
 
 var passport = require('passport'), OAuth2Strategy = require('passport-oauth').OAuth2Strategy;
 
-var dbConfig = require('./db.js');
 var mongoose = require('mongoose');
-mongoose.connect(dbConfig.url);
+mongoose.connect('mongodb://localhost/facebookspotify');
+
+var User = mongoose.model('User', {
+    userID: Number,
+    accessToken: String,
+    refreshToken: String,
+    provider: String,
+    name: String
+});
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
@@ -35,14 +42,32 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 passport.use('spotify', new OAuth2Strategy({
         authorizationURL: 'https://accounts.spotify.com/authorize',
-        tokenURL: 'https://www.provider.com/oauth2/token',
         clientID: '9932de46f05142d78e589f44b3cec17f',
         clientSecret: '089f6779318e41cca8d47c883b793d78',
         callbackURL: 'http://carnley.me/createPlaylist'
     },
     function(accessToken, refreshToken, profile, done) {
-        User.findOrCreate({userID: profile.id}, function(err, user) {
-            done(err, user);
+        User.findOne({ userID: profile.id }, function(err, user) {
+            if(err) { console.log(err); }
+            if (!err && user != null) {
+                done(null, user);
+            } else {
+                var user = new User({
+                    userID: profile.id,
+                    name: profile.displayName,
+                    provider: "spotify",
+                    accessToken : accessToken,
+                    refreshToken: refreshToken
+                });
+                user.save(function(err) {
+                    if(err) {
+                        console.log(err);
+                    } else {
+                        console.log("saving user ...");
+                        done(null, user);
+                    };
+                });
+            };
         });
     }
 ));

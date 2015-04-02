@@ -41,7 +41,7 @@ passport.use('spotify', new OAuth2Strategy({
         callbackURL: 'http://carnley.me/createPlaylist'
     },
     function(accessToken, refreshToken, profile, done) {
-        User.findOrCreate({exampleId: profile.id}, function(err, user) {
+        User.findOrCreate({userID: profile.id}, function(err, user) {
             done(err, user);
         });
     }

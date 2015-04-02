@@ -11,31 +11,25 @@ passport.use('spotify', new OAuth2Strategy({
         callbackURL: 'http://carnley.me/createPlaylist'
     },
     function(accessToken, refreshToken, profile, done) {
-        User.findOne({
-            'facebook.id': profile.id
-        }, function(err, user) {
-            if (err) {
-                return done(err);
+        var db = req.db;
+        var collection = db.get('user');
+        var user = {
+            "userID" : profile.id,
+            "name" : profile.name,
+            "accessToken" : accessToken,
+            "refreshToken" : refreshToken,
+            "emails" : profile.emails
+        };
+        collection.insert(user , function(err, doc){
+            if(err)
+            {
+                return done(err, null);
             }
-            //No user was found... so create a new user with values from Facebook (all the profile. stuff)
-            if (!user) {
-                user = new User({
-                    name: profile.displayName,
-                    email: profile.emails[0].value,
-                    username: profile.username,
-                    provider: 'facebook',
-                    //now in the future searching on User.findOne({'facebook.id': profile.id } will match because of this next line
-                    facebook: profile._json
-                });
-                user.save(function(err) {
-                    if (err) console.log(err);
-                    return done(err, user);
-                });
-            } else {
-                //found user. Return
+            else
+            {
                 return done(err, user);
             }
-        });
+        })
     }
 ));
 

@@ -51,6 +51,7 @@ passport.use('spotify', new OAuth2Strategy({
         callbackURL: 'http://carnley.me/spotifyLogin/callback'
     },
     function(accessToken, refreshToken, profile, done) {
+        console.log(accessToken)
         var collection = db.get('user');
         var user = {};
 

@@ -55,29 +55,10 @@ passport.use('spotify', new OAuth2Strategy({
         var collection = db.get('user');
         var user = {};
 
+        request.get('http://some.server.com/').auth(null, null, true, accessToken);
 
-        var options = {
-            host: 'api.spotify.com',
-            path: '/v1/me',
-            //This is the only line that is new. `headers` is an object with the headers to request
-            headers: {'Authorization': 'Bearer ' + accessToken}
-        };
 
-        callback = function(response) {
-            var str = ''
-            response.on('data', function (chunk) {
-                str += chunk;
-            });
 
-            response.on('end', function () {
-                user = JSON.parse(str);
-            });
-        }
-
-        var req = http.request(options, callback);
-        req.end();
-
-        console.log(user);
         /*var url = 'https://api.spotify.com/v1/me';
         var headers = {
             'Authorization': 'Bearer ' + accessToken

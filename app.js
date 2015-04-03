@@ -56,38 +56,25 @@ passport.use('spotify', new OAuth2Strategy({
         var user = {};
 
         request.get('https://api.spotify.com/v1/me', function(err, resp, body){
-            console.log(body);
+            var jsonBody = JSON.parse(body);
+
+            user = {
+                userID : jsonBody.id,
+                name : jsonBody.display_name,
+                accessToken : accessToken,
+                refreshToken : refreshToken
+            }
         }).auth(null, null, true, accessToken);
 
 
-        done(null, null);
-        /*var url = 'https://api.spotify.com/v1/me';
-        var headers = {
-            'Authorization': 'Bearer ' + accessToken
-        };
-
-
-        request.get({ url: url, headers: headers }, function (e, r, body) {
-            // your callback body
-        });*/
-
-        /*collection.insert({
-            "username" : "test",
-            "email" : "christian@test.com"
-        }, function (err, doc) {
+        collection.insert(user, function (err, doc) {
             if (err) {
-                // If it failed, return error
-                //res.send("There was a problem adding the information to the database.");
                 done(err, null)
             }
             else {
-                // If it worked, set the header so the address bar doesn't still say /adduser
-                //res.location("userlist");
-                // And forward to success page
-                //res.redirect("userlist");
-                done(err, null)
+                done(err, user)
             }
-        });*/
+        });
     }
 ));
 

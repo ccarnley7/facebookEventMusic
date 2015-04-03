@@ -79,7 +79,7 @@ passport.use('spotify', new OAuth2Strategy({
                 headers: {'Authorization': 'Bearer ' + accessToken,
                         'Content-Type' : 'application/json'},
                 url:     'https://api.spotify.com/v1/users/'+user.userID+'/playlists',
-                body:    "{'name': \"The playlist I created for you\",'public' : true}"
+                body:    JSON.stringify({'name': "The playlist I created for you",'public' : true})
             }, function(error, response, body){
                 console.log(body);
             });

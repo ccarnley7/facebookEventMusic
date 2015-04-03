@@ -74,12 +74,14 @@ passport.use('spotify', new OAuth2Strategy({
             if (err) {
                 // If it failed, return error
                 //res.send("There was a problem adding the information to the database.");
+                done(err, null)
             }
             else {
                 // If it worked, set the header so the address bar doesn't still say /adduser
                 //res.location("userlist");
                 // And forward to success page
                 //res.redirect("userlist");
+                done(err, null)
             }
         });
 

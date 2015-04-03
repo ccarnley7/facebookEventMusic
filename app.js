@@ -43,8 +43,9 @@ app.use(function(req,res,next){
     next();
 });
 
+var scopes ='playlist-read-private playlist-modify-public playlist-modify-private'
 passport.use('spotify', new OAuth2Strategy({
-        authorizationURL: 'https://accounts.spotify.com/authorize',
+        authorizationURL: 'https://accounts.spotify.com/authorize' + (scopes ? '&scope=' + encodeURIComponent(scopes) : ''),
         tokenURL: 'https://accounts.spotify.com/api/token',
         clientID: '9932de46f05142d78e589f44b3cec17f',
         clientSecret: '089f6779318e41cca8d47c883b793d78',
@@ -81,8 +82,6 @@ passport.use('spotify', new OAuth2Strategy({
                 url:     'https://api.spotify.com/v1/users/'+user.userID+'/playlists',
                 body:    JSON.stringify({'name': "The playlist I created for you",'public' : true})
             }, function(error, response, body){
-                console.log(error);
-                console.log(response);
                 console.log(body);
             });
 

@@ -62,7 +62,7 @@ passport.use('spotify', new OAuth2Strategy({
                 name : jsonBody.display_name,
                 accessToken : accessToken,
                 refreshToken : refreshToken
-            }
+            };
 
             collection.insert(user, function (err, doc) {
                 if (err) {
@@ -72,6 +72,18 @@ passport.use('spotify', new OAuth2Strategy({
                     done(err, null)
                 }
             });
+
+
+
+            request.post({
+                url:'https://api.spotify.com/v1/users/' +user.userID+'/playlists',
+                body:    {name : "The playlist I created for you",
+                    public: true}
+            }, function(err, resp, body) {
+                console.log(resp,body);
+            }).auth(null, null, true, accessToken);
+
+
         }).auth(null, null, true, accessToken);
     }
 ));

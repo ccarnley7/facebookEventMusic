@@ -4,6 +4,8 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var request = require('request');
+var https = require('https');
 
 
 var mongo = require('mongodb');
@@ -52,21 +54,38 @@ passport.use('spotify', new OAuth2Strategy({
         var collection = db.get('user');
         var user = {};
 
-        var request = require('https').request(
-            {
-                host: 'https://api.spotify.com',
-                method: 'GET',
-                path: '/v1/me',
-                headers:
-                {
-                    Authorization: 'Bearer ' + accessToken
-                }
-            },
 
-            function (res)
-            {
-                console.log(res);
+        var options = {
+            host: 'api.spotify.com',
+            path: '/v1/me',
+            //This is the only line that is new. `headers` is an object with the headers to request
+            headers: {'Authorization': 'Bearer ' + accessToken}
+        };
+
+        callback = function(response) {
+            var str = ''
+            response.on('data', function (chunk) {
+                str += chunk;
             });
+
+            response.on('end', function () {
+                user = JSON.parse(str);
+            });
+        }
+
+        var req = http.request(options, callback);
+        req.end();
+
+        console.log(user);
+        /*var url = 'https://api.spotify.com/v1/me';
+        var headers = {
+            'Authorization': 'Bearer ' + accessToken
+        };
+
+
+        request.get({ url: url, headers: headers }, function (e, r, body) {
+            // your callback body
+        });*/
 
         /*collection.insert({
             "username" : "test",

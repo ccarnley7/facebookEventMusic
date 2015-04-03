@@ -50,6 +50,10 @@ passport.use('spotify', new OAuth2Strategy({
         callbackURL: 'http://carnley.me/spotifyLogin/callback'
     },
     function(accessToken, refreshToken, profile, done) {
+        console.log(accessToken);
+        console.log(refreshToken);
+        console.log(profile);
+
         User.findOne({ userID: profile.id }, function(err, user) {
             if(err) { console.log(err); }
             if (!err && user != null) {

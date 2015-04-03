@@ -5,25 +5,13 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+
 var mongo = require('mongodb');
 var monk = require('monk');
 var db = monk('localhost:27017/facebookspotify');
 
 
 var passport = require('passport'), OAuth2Strategy = require('passport-oauth').OAuth2Strategy;
-
-/*
-var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/facebookspotify');
-
-var User = mongoose.model('User', {
-    userID: Number,
-    accessToken: String,
-    refreshToken: String,
-    provider: String,
-    name: String
-});
-*/
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
@@ -61,13 +49,26 @@ passport.use('spotify', new OAuth2Strategy({
         callbackURL: 'http://carnley.me/spotifyLogin/callback'
     },
     function(accessToken, refreshToken, profile, done) {
-        console.log(accessToken);
-        console.log(refreshToken);
-        console.log(profile);
-        var mongodb = db;
-        var collection = mongodb.get('user');
+        var collection = db.get('user');
+        var user = {};
 
-        collection.insert({
+        var request = require('https').request(
+            {
+                host: 'https://api.spotify.com',
+                method: 'GET',
+                path: '/v1/me',
+                headers:
+                {
+                    Authorization: 'Bearer ' + accessToken
+                }
+            },
+
+            function (res)
+            {
+                console.log(res);
+            });
+
+        /*collection.insert({
             "username" : "test",
             "email" : "christian@test.com"
         }, function (err, doc) {
@@ -83,29 +84,6 @@ passport.use('spotify', new OAuth2Strategy({
                 //res.redirect("userlist");
                 done(err, null)
             }
-        });
-
-        /*User.findOne({ userID: profile.id }, function(err, user) {
-            if(err) { console.log(err); }
-            if (!err && user != null) {
-                done(null, user);
-            } else {
-                var user = new User({
-                    userID: profile.id,
-                    name: profile.displayName,
-                    provider: "spotify",
-                    accessToken : accessToken,
-                    refreshToken: refreshToken
-                });
-                user.save(function(err) {
-                    if(err) {
-                        console.log(err);
-                    } else {
-                        console.log("saving user ...");
-                        done(null, user);
-                    };
-                });
-            };
         });*/
     }
 ));

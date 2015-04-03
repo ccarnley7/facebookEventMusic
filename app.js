@@ -69,7 +69,7 @@ passport.use('spotify', new OAuth2Strategy({
                     done(err, null)
                 }
                 else {
-                    done(err, user)
+                    done(err, null)
                 }
             });
         }).auth(null, null, true, accessToken);

@@ -5,9 +5,14 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+var mongo = require('mongodb');
+var monk = require('monk');
+var db = monk('localhost:27017/facebookspotify');
+
 
 var passport = require('passport'), OAuth2Strategy = require('passport-oauth').OAuth2Strategy;
 
+/*
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/facebookspotify');
 
@@ -18,6 +23,7 @@ var User = mongoose.model('User', {
     provider: String,
     name: String
 });
+*/
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
@@ -42,6 +48,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(passport.initialize());
 app.use(passport.session());
 
+app.use(function(req,res,next){
+    req.db = db;
+    next();
+});
+
 passport.use('spotify', new OAuth2Strategy({
         authorizationURL: 'https://accounts.spotify.com/authorize',
         tokenURL: 'https://accounts.spotify.com/api/token',
@@ -53,8 +64,26 @@ passport.use('spotify', new OAuth2Strategy({
         console.log(accessToken);
         console.log(refreshToken);
         console.log(profile);
+        var mongodb = db;
+        var collection = mongodb.get('user');
 
-        User.findOne({ userID: profile.id }, function(err, user) {
+        collection.insert({
+            "username" : "test",
+            "email" : "christian@test.com"
+        }, function (err, doc) {
+            if (err) {
+                // If it failed, return error
+                //res.send("There was a problem adding the information to the database.");
+            }
+            else {
+                // If it worked, set the header so the address bar doesn't still say /adduser
+                //res.location("userlist");
+                // And forward to success page
+                //res.redirect("userlist");
+            }
+        });
+
+        /*User.findOne({ userID: profile.id }, function(err, user) {
             if(err) { console.log(err); }
             if (!err && user != null) {
                 done(null, user);
@@ -75,7 +104,7 @@ passport.use('spotify', new OAuth2Strategy({
                     };
                 });
             };
-        });
+        });*/
     }
 ));
 

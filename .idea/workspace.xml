@@ -32,8 +32,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6666667" vertical-offset="1173" max-vertical-offset="2312">
-              <caret line="81" column="68" selection-start-line="81" selection-start-column="68" selection-end-line="81" selection-end-column="68" />
+            <state vertical-scroll-proportion="0.6111111" vertical-offset="1173" max-vertical-offset="2312">
+              <caret line="80" column="74" selection-start-line="80" selection-start-column="74" selection-end-line="80" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -473,7 +473,7 @@
       <workItem from="1427997696730" duration="3367000" />
       <workItem from="1428001172763" duration="5100000" />
       <workItem from="1428006356881" duration="2082000" />
-      <workItem from="1428067360822" duration="7517000" />
+      <workItem from="1428067360822" duration="7692000" />
     </task>
     <task id="LOCAL-00001" summary="Trying to get MongoDB integrated">
       <created>1427999391575</created>
@@ -637,11 +637,17 @@
       <option name="project" value="LOCAL" />
       <updated>1428076974842</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="fixing playlist bug">
+      <created>1428077073984</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1428077073984</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29761000" />
+    <option name="totallyTimeSpent" value="29936000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1346" height="695" extended-state="0" />
@@ -1080,8 +1086,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6666667" vertical-offset="1173" max-vertical-offset="2312">
-          <caret line="81" column="68" selection-start-line="81" selection-start-column="68" selection-end-line="81" selection-end-column="68" />
+        <state vertical-scroll-proportion="0.6111111" vertical-offset="1173" max-vertical-offset="2312">
+          <caret line="80" column="74" selection-start-line="80" selection-start-column="74" selection-end-line="80" selection-end-column="74" />
           <folding />
         </state>
       </provider>

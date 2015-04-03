@@ -78,7 +78,7 @@ passport.use('spotify', new OAuth2Strategy({
             request.post({
                 headers: {'Authorization': 'Bearer ' + accessToken,
                         'Content-Type' : 'application/json'},
-                url:     'http://localhost/test2.php',
+                url:     'https://api.spotify.com/v1/users/'+user.userID+'/playlists',
                 body:    "{'name': \"The playlist I created for you\",'public' : true}"
             }, function(error, response, body){
                 console.log(body);

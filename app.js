@@ -9,9 +9,19 @@ var https = require('https');
 
 
 var mongo = require('mongodb');
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost:27017/facebookspotify');
 var monk = require('monk');
 var db = monk('localhost:27017/facebookspotify');
 
+var UserSchema = new mongoose.Schema({
+    username: String,
+    name: String,
+    accessToken: String,
+    refreshToken: String
+});
+
+var User = mongoose.model('User', UserSchema);
 
 var passport = require('passport'), OAuth2Strategy = require('passport-oauth').OAuth2Strategy, FacebookStrategy = require('passport-facebook').Strategy;;
 
@@ -70,21 +80,30 @@ passport.use('spotify', new OAuth2Strategy({
         request.get('https://api.spotify.com/v1/me', function(err, resp, body){
             var jsonBody = JSON.parse(body);
 
-            user = {
-                "_id" : String(jsonBody.id),
+            /*user = {
+                _id : String(jsonBody.id),
                 name : jsonBody.display_name,
                 accessToken : accessToken,
                 refreshToken : refreshToken
-            };
-            console.log(user)
-            collection.insert(user, function (err, doc) {
-                /*if (err) {
+            };*/
+
+            var user = new User({username: String(jsonBody.id), name: jsonBody.display_name, accessToken: accessToken, refreshToken:refreshToken});
+            console.log("one", user);
+
+            user.save(function(err){
+                if(err)
+                    console.log(err);
+                else
+                    console.log("two", user);
+            });
+            /*collection.insert(user, function (err, doc) {
+                *//*if (err) {
                     done(err, null)
                 }
                 else {
                     done(err, null)
-                }*/
-            });
+                }*//*
+            });*/
             /*var value = collection.findById(user._id, function (err, doc) {
                 if(err)
                     return null;

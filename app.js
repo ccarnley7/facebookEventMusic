@@ -76,7 +76,7 @@ passport.use('spotify', new OAuth2Strategy({
                 accessToken : accessToken,
                 refreshToken : refreshToken
             };
-
+            console.log(user)
             collection.insert(user, function (err, doc) {
                 /*if (err) {
                     done(err, null)

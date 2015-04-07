@@ -84,7 +84,7 @@ passport.use('spotify', new OAuth2Strategy({
                     return obj
             });
 
-                console.log(value);
+                console.log("value" ,value);
                /* if (err) {
                     done(err, null)
                 }

@@ -83,43 +83,12 @@ passport.use('spotify', new OAuth2Strategy({
         request.get('https://api.spotify.com/v1/me', function(err, resp, body){
             var jsonBody = JSON.parse(body);
 
+            var dbuser;
             var user = User.findOrCreate({username: String(jsonBody.id)},{name: jsonBody.display_name, accessToken: accessToken, refreshToken:refreshToken} ,function(err, user, created){
-                return user;
+                dbuser =  user;
             });
 
-            console.log("user", user);
-
-            /*user.save(function(err){
-                if(err)
-                    console.log(err);
-                else
-                    console.log("two", user);
-            });*/
-            /*collection.insert(user, function (err, doc) {
-                *//*if (err) {
-                    done(err, null)
-                }
-                else {
-                    done(err, null)
-                }*//*
-            });*/
-            /*var value = collection.findById(user._id, function (err, doc) {
-                if(err)
-                    return null;
-                else
-                    return doc
-            });
-
-                console.log("value" ,value);*/
-               /* if (err) {
-                    done(err, null)
-                }
-                else {
-                    done(err, null)
-                }
-            });*/
-
-
+            console.log("user", dbuser);
 
             /*request.post({
                 headers: {'Authorization': 'Bearer ' + accessToken,

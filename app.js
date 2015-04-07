@@ -77,26 +77,33 @@ passport.use('spotify', new OAuth2Strategy({
                 refreshToken : refreshToken
             };
 
-            collection.save(user, {w:1}, function (err, doc) {
-                if (err) {
+            var value = collection.findById(user._id, function (err, obj) {
+                if(err)
+                    return null;
+                else
+                    return obj
+            });
+
+                console.log(value);
+               /* if (err) {
                     done(err, null)
                 }
                 else {
                     done(err, null)
                 }
-            });
+            });*/
 
 
 
-            request.post({
+            /*request.post({
                 headers: {'Authorization': 'Bearer ' + accessToken,
                         'Content-Type' : 'application/json'},
                 url:     'https://api.spotify.com/v1/users/'+user.userID+'/playlists',
                 body:    JSON.stringify({'name': "The playlist I created for you",'public' : true})
             }, function(error, response, body){
                 console.log(body);
-            });
-
+            });*/
+        done(err, null);
 
         }).auth(null, null, true, accessToken);
     }

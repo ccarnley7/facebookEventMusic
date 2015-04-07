@@ -10,7 +10,7 @@ var https = require('https');
 
 var mongo = require('mongodb');
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/facebookspotify');
+mongoose.connect('mongodb://localhost:27017/facebookspotify/user');
 var monk = require('monk');
 var db = monk('localhost:27017/facebookspotify');
 

@@ -83,19 +83,11 @@ passport.use('spotify', new OAuth2Strategy({
         request.get('https://api.spotify.com/v1/me', function(err, resp, body){
             var jsonBody = JSON.parse(body);
 
-            /*user = {
-                _id : String(jsonBody.id),
-                name : jsonBody.display_name,
-                accessToken : accessToken,
-                refreshToken : refreshToken
-            };*/
+            var user = User.findOrCreate({username: String(jsonBody.id)},{name: jsonBody.display_name, accessToken: accessToken, refreshToken:refreshToken} ,function(err, user, created){
+                return user;
+            });
 
-            console.log("one", user);
-
-
-            User.findOrCreate({username: String(jsonBody.id)},{name: jsonBody.display_name, accessToken: accessToken, refreshToken:refreshToken} ,function(err, user, created){
-                console.log("created", created);
-            })
+            console.log("user", user);
 
             /*user.save(function(err){
                 if(err)

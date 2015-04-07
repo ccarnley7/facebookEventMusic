@@ -20,6 +20,7 @@ var users = require('./routes/users');
 var createPlaylist = require('./routes/createPlaylist');
 var facebookCallback = require('./routes/facebookCallback');
 var spotifyLogin = require('./routes/spotifyLogin');
+var facebookAPI = require('./routes/facebookAPI')
 
 var app = express();
 

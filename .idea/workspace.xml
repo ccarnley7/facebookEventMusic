@@ -32,8 +32,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55131966" vertical-offset="1240" max-vertical-offset="2788">
-              <caret line="84" column="35" selection-start-line="84" selection-start-column="35" selection-end-line="84" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.3020528" vertical-offset="1138" max-vertical-offset="2788">
+              <caret line="73" column="41" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -618,13 +618,7 @@
       <workItem from="1428006356881" duration="2082000" />
       <workItem from="1428067360822" duration="15220000" />
       <workItem from="1428426237850" duration="2376000" />
-      <workItem from="1428428673491" duration="5485000" />
-    </task>
-    <task id="LOCAL-00005" summary="trying to store user data in db again">
-      <created>1428005135850</created>
-      <option name="number" value="00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1428005135850</updated>
+      <workItem from="1428428673491" duration="5551000" />
     </task>
     <task id="LOCAL-00006" summary="trying another approach to saving user data">
       <created>1428006152709</created>
@@ -914,11 +908,17 @@
       <option name="project" value="LOCAL" />
       <updated>1428436486796</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="trying to fix database things again">
+      <created>1428436796429</created>
+      <option name="number" value="00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1428436796429</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45325000" />
+    <option name="totallyTimeSpent" value="45391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="9" width="1346" height="706" extended-state="0" />
@@ -1410,8 +1410,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55131966" vertical-offset="1240" max-vertical-offset="2788">
-          <caret line="84" column="35" selection-start-line="84" selection-start-column="35" selection-end-line="84" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.3020528" vertical-offset="1138" max-vertical-offset="2788">
+          <caret line="73" column="41" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
           <folding />
         </state>
       </provider>

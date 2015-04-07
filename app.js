@@ -71,7 +71,7 @@ passport.use('spotify', new OAuth2Strategy({
             var jsonBody = JSON.parse(body);
 
             user = {
-                _id : jsonBody.id,
+                _id : String(jsonBody.id),
                 name : jsonBody.display_name,
                 accessToken : accessToken,
                 refreshToken : refreshToken

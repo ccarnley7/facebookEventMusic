@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var passport = require('passport'), OAuth2Strategy = require('passport-oauth').OAuth2Strategy;
+var db = monk('localhost:27017/facebookspotify');
 
 passport.use('spotify', new OAuth2Strategy({
         authorizationURL: 'https://accounts.spotify.com/authorize',

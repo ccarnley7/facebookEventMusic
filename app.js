@@ -10,9 +10,10 @@ var https = require('https');
 
 var mongo = require('mongodb');
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/facebookspotify/user');
+mongoose.connect('mongodb://localhost:27017/facebookspotify');
 var monk = require('monk');
 var db = monk('localhost:27017/facebookspotify');
+var findOrCreate = require('mongoose-findorcreate')
 
 var UserSchema = new mongoose.Schema({
     username: String,
@@ -20,6 +21,8 @@ var UserSchema = new mongoose.Schema({
     accessToken: String,
     refreshToken: String
 });
+
+UserSchema.plugin(findOrCreate);
 
 var User = mongoose.model('User', UserSchema);
 
@@ -90,12 +93,17 @@ passport.use('spotify', new OAuth2Strategy({
             var user = new User({username: String(jsonBody.id), name: jsonBody.display_name, accessToken: accessToken, refreshToken:refreshToken});
             console.log("one", user);
 
-            user.save(function(err){
+
+            user.findOrCreate({username: user.username}, function(err, user, created){
+                console.log("created", created);
+            })
+
+            /*user.save(function(err){
                 if(err)
                     console.log(err);
                 else
                     console.log("two", user);
-            });
+            });*/
             /*collection.insert(user, function (err, doc) {
                 *//*if (err) {
                     done(err, null)

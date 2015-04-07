@@ -13,7 +13,7 @@ var monk = require('monk');
 var db = monk('localhost:27017/facebookspotify');
 
 
-var passport = require('passport'), OAuth2Strategy = require('passport-oauth').OAuth2Strategy;
+var passport = require('passport'), OAuth2Strategy = require('passport-oauth').OAuth2Strategy, FacebookStrategy = require('passport-facebook').Strategy;;
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
@@ -44,6 +44,17 @@ app.use(function(req,res,next){
     next();
 });
 
+passport.use(new FacebookStrategy({
+        clientID: '377801185740004',
+        clientSecret: '12784ed027b4b2b2fed1cb15d47a9c54',
+        callbackURL: "www.carnley.me/facebookCallback"
+    },
+    function(accessToken, refreshToken, profile, done) {
+        console.log("Facebook token", accessToken);
+        console.log("Facebook profile", profile);
+    }
+));
+
 passport.use('spotify', new OAuth2Strategy({
         authorizationURL: 'https://accounts.spotify.com/authorize',
         tokenURL: 'https://accounts.spotify.com/api/token',
@@ -65,7 +76,7 @@ passport.use('spotify', new OAuth2Strategy({
                 refreshToken : refreshToken
             };
 
-            collection.insert(user, function (err, doc) {
+            collection.save(user, function (err, doc) {
                 if (err) {
                     done(err, null)
                 }

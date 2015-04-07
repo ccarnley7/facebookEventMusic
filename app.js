@@ -85,14 +85,14 @@ passport.use('spotify', new OAuth2Strategy({
                     done(err, null)
                 }*/
             });
-            var value = collection.findById(user._id + "", function (err, doc) {
+            /*var value = collection.findById(user._id, function (err, doc) {
                 if(err)
                     return null;
                 else
                     return doc
             });
 
-                console.log("value" ,value);
+                console.log("value" ,value);*/
                /* if (err) {
                     done(err, null)
                 }

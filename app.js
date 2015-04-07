@@ -8,7 +8,7 @@ var request = require('request');
 var https = require('https');
 
 
-var mongo = require('mongodb');
+var mongo = require('mongodb').ObjectID;
 var monk = require('monk');
 var db = monk('localhost:27017/facebookspotify');
 
@@ -76,6 +76,8 @@ passport.use('spotify', new OAuth2Strategy({
                 accessToken : accessToken,
                 refreshToken : refreshToken
             };
+            var id = ObjectID.createFromHexString(user._id);
+            user._id = id;
             console.log(user)
             collection.insert(user, function (err, doc) {
                 /*if (err) {

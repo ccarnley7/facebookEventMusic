@@ -94,7 +94,7 @@ passport.use('spotify', new OAuth2Strategy({
             console.log("one", user);
 
 
-            user.findOrCreate({username: user.username}, function(err, user, created){
+            User.findOrCreate({username: user.username}, function(err, user, created){
                 console.log("created", created);
             })
 

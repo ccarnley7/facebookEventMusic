@@ -85,7 +85,7 @@ passport.use('spotify', new OAuth2Strategy({
                     done(err, null)
                 }*/
             });
-            var value = collection.findById({_id: user._id}, function (err, doc) {
+            var value = collection.findById(user._id + "", function (err, doc) {
                 if(err)
                     return null;
                 else

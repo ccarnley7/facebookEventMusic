@@ -47,7 +47,7 @@ app.use(function(req,res,next){
 passport.use(new FacebookStrategy({
         clientID: '377801185740004',
         clientSecret: '12784ed027b4b2b2fed1cb15d47a9c54',
-        callbackURL: "www.carnley.me/facebookCallback"
+        callbackURL: "http://www.carnley.me/facebookCallback"
     },
     function(accessToken, refreshToken, profile, done) {
         console.log("Facebook token", accessToken);

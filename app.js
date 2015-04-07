@@ -13,7 +13,7 @@ var monk = require('monk');
 var db = monk('localhost:27017/facebookspotify');
 
 
-var passport = require('passport'), OAuth2Strategy = require('passport-oauth').OAuth2Strategy, FacebookStrategy = require('passport-facebook').Strategy;;
+var passport = require('passport');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
@@ -44,63 +44,9 @@ app.use(function(req,res,next){
     next();
 });
 
-passport.use(new FacebookStrategy({
-        clientID: '377801185740004',
-        clientSecret: '12784ed027b4b2b2fed1cb15d47a9c54',
-        callbackURL: "http://www.carnley.me/facebookCallback123456789"
-    },
-    function(accessToken, refreshToken, profile, done) {
-        console.log("Facebook token", accessToken);
-        console.log("Facebook profile", profile);
-        done(null, profile);
-    }
-));
-
-passport.use('spotify', new OAuth2Strategy({
-        authorizationURL: 'https://accounts.spotify.com/authorize',
-        tokenURL: 'https://accounts.spotify.com/api/token',
-        clientID: '9932de46f05142d78e589f44b3cec17f',
-        clientSecret: '089f6779318e41cca8d47c883b793d78',
-        callbackURL: 'http://carnley.me/spotifyLogin/callback'
-    },
-    function(accessToken, refreshToken, profile, done) {
-        var collection = db.get('user');
-        var user = {};
-
-        request.get('https://api.spotify.com/v1/me', function(err, resp, body){
-            var jsonBody = JSON.parse(body);
-
-            user = {
-                userID : jsonBody.id,
-                name : jsonBody.display_name,
-                accessToken : accessToken,
-                refreshToken : refreshToken
-            };
-
-            collection.save(user, function (err, doc) {
-                if (err) {
-                    done(err, null)
-                }
-                else {
-                    done(err, null)
-                }
-            });
 
 
 
-            request.post({
-                headers: {'Authorization': 'Bearer ' + accessToken,
-                        'Content-Type' : 'application/json'},
-                url:     'https://api.spotify.com/v1/users/'+user.userID+'/playlists',
-                body:    JSON.stringify({'name': "The playlist I created for you",'public' : true})
-            }, function(error, response, body){
-                console.log(body);
-            });
-
-
-        }).auth(null, null, true, accessToken);
-    }
-));
 
 app.use('/', routes);
 app.use('/users', users);

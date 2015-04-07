@@ -52,7 +52,7 @@ passport.use(new FacebookStrategy({
     function(accessToken, refreshToken, profile, done) {
         console.log("Facebook token", accessToken);
         console.log("Facebook profile", profile);
-        done(err, null);
+        done(null, profile);
     }
 ));
 

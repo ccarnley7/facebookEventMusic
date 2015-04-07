@@ -86,9 +86,10 @@ passport.use('spotify', new OAuth2Strategy({
             var dbuser;
             var user = User.findOrCreate({username: String(jsonBody.id)},{name: jsonBody.display_name, accessToken: accessToken, refreshToken:refreshToken} ,function(err, user, created){
                 dbuser =  user;
+                console.log("user", dbuser);
             });
 
-            console.log("user", dbuser);
+
 
             /*request.post({
                 headers: {'Authorization': 'Bearer ' + accessToken,

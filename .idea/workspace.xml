@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="26de6a3c-7c89-4890-bc25-f54ee3d763a0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/facebookCallback.js" afterPath="$PROJECT_DIR$/routes/facebookCallback.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/spotifyLogin.js" afterPath="$PROJECT_DIR$/routes/spotifyLogin.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FacebookSublimeApp.iws" />
@@ -31,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.1034484" vertical-offset="714" max-vertical-offset="2533">
-              <caret line="49" column="61" selection-start-line="49" selection-start-column="61" selection-end-line="49" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.4204947" vertical-offset="1224" max-vertical-offset="2533">
+              <caret line="79" column="38" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -51,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="facebookCallback.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="facebookCallback.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/facebookCallback.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15692307" vertical-offset="0" max-vertical-offset="325">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -129,8 +127,8 @@
         <option value="$PROJECT_DIR$/routes/createPlaylist.js" />
         <option value="$PROJECT_DIR$/views/index.jade" />
         <option value="$PROJECT_DIR$/routes/spotifyLogin.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/facebookCallback.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -536,7 +534,7 @@
       <workItem from="1428006356881" duration="2082000" />
       <workItem from="1428067360822" duration="15220000" />
       <workItem from="1428426237850" duration="2376000" />
-      <workItem from="1428428673491" duration="1999000" />
+      <workItem from="1428428673491" duration="2590000" />
     </task>
     <task id="LOCAL-00001" summary="Trying to get MongoDB integrated">
       <created>1427999391575</created>
@@ -796,11 +794,23 @@
       <option name="project" value="LOCAL" />
       <updated>1428433141647</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="reverting passport moves">
+      <created>1428433303759</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1428433303759</updated>
+    </task>
+    <task id="LOCAL-00045" summary="trying to fix database things again">
+      <created>1428433471927</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1428433471927</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41839000" />
+    <option name="totallyTimeSpent" value="42430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="9" width="1346" height="706" extended-state="0" />
@@ -850,8 +860,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="fixing passport bug" />
-    <MESSAGE value="fixing passport bug again" />
     <MESSAGE value="fixing passport bug third time" />
     <MESSAGE value="attempting write to mongo" />
     <MESSAGE value="wrote to mongo" />
@@ -875,7 +883,9 @@
     <MESSAGE value="Moved passport stuff and hopefully fixed database" />
     <MESSAGE value="trying to fix the broken passport stuff" />
     <MESSAGE value="fixing database issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing database issues" />
+    <MESSAGE value="reverting passport moves" />
+    <MESSAGE value="trying to fix database things again" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying to fix database things again" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1266,6 +1276,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/facebookCallback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/spotifyLogin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
@@ -1276,16 +1294,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.1034484" vertical-offset="714" max-vertical-offset="2533">
-          <caret line="49" column="61" selection-start-line="49" selection-start-column="61" selection-end-line="49" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/facebookCallback.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15692307" vertical-offset="0" max-vertical-offset="325">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4204947" vertical-offset="1224" max-vertical-offset="2533">
+          <caret line="79" column="38" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="38" />
           <folding />
         </state>
       </provider>

@@ -90,11 +90,10 @@ passport.use('spotify', new OAuth2Strategy({
                 refreshToken : refreshToken
             };*/
 
-            var user = new User({username: String(jsonBody.id), name: jsonBody.display_name, accessToken: accessToken, refreshToken:refreshToken});
             console.log("one", user);
 
 
-            User.findOrCreate({username: user.username}, function(err, user, created){
+            User.findOrCreate({username: String(jsonBody.id)},{name: jsonBody.display_name, accessToken: accessToken, refreshToken:refreshToken} ,function(err, user, created){
                 console.log("created", created);
             })
 

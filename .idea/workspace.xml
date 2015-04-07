@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26de6a3c-7c89-4890-bc25-f54ee3d763a0" name="Default" comment="">
+    <list default="true" id="26de6a3c-7c89-4890-bc25-f54ee3d763a0" name="Default" comment="trying mongoose">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose-findorcreate/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose-findorcreate/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FacebookSublimeApp.iws" />
@@ -33,8 +32,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5214724" vertical-offset="1479" max-vertical-offset="3247">
-              <caret line="97" column="39" selection-start-line="97" selection-start-column="39" selection-end-line="97" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.5736196" vertical-offset="1428" max-vertical-offset="3230">
+              <caret line="95" column="61" selection-start-line="95" selection-start-column="61" selection-end-line="95" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -553,19 +552,7 @@
       <workItem from="1428006356881" duration="2082000" />
       <workItem from="1428067360822" duration="15220000" />
       <workItem from="1428426237850" duration="2376000" />
-      <workItem from="1428428673491" duration="7164000" />
-    </task>
-    <task id="LOCAL-00012" summary="fixing passport bug again">
-      <created>1428069628422</created>
-      <option name="number" value="00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1428069628422</updated>
-    </task>
-    <task id="LOCAL-00013" summary="fixing passport bug third time">
-      <created>1428069766590</created>
-      <option name="number" value="00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1428069766590</updated>
+      <workItem from="1428428673491" duration="7419000" />
     </task>
     <task id="LOCAL-00014" summary="attempting write to mongo">
       <created>1428070398472</created>
@@ -849,11 +836,23 @@
       <option name="project" value="LOCAL" />
       <updated>1428437916313</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="trying mongoose">
+      <created>1428438489940</created>
+      <option name="number" value="00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1428438489940</updated>
+    </task>
+    <task id="LOCAL-00062" summary="trying mongoose">
+      <created>1428438641955</created>
+      <option name="number" value="00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1428438641955</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47004000" />
+    <option name="totallyTimeSpent" value="47259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="9" width="1346" height="706" extended-state="0" />
@@ -1345,8 +1344,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5214724" vertical-offset="1479" max-vertical-offset="3247">
-          <caret line="97" column="39" selection-start-line="97" selection-start-column="39" selection-end-line="97" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.5736196" vertical-offset="1428" max-vertical-offset="3230">
+          <caret line="95" column="61" selection-start-line="95" selection-start-column="61" selection-end-line="95" selection-end-column="61" />
           <folding />
         </state>
       </provider>

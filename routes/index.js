@@ -9,7 +9,7 @@ var passport = require('passport')
 router.get('/', function(req, res, next) {
     var db = req.db;
     console.log("db", db);
-    var collection = db.get('user');
+    var collection = db.get('users');
     collection.find({},{},function(e,docs){
         console.log("docs", docs);
         res.render('index', {

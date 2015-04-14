@@ -10,6 +10,7 @@ router.get('/', function(req, res, next) {
     var db = req.db;
     var collection = db.get('user');
     collection.find({},{},function(e,docs){
+        console.log("docs", docs);
         res.render('index', {
             "title" : 'Facebook/Spotify App',
             "userlist" : docs

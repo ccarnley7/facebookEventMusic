@@ -7,7 +7,17 @@ var passport = require('passport')
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Facebook/Spotify App' });
+    var db = req.db;
+    var collection = db.get('user');
+    collection.find({},{},function(e,docs){
+        res.render('index', {
+            "title" : 'Facebook/Spotify App',
+            "userlist" : docs
+        });
+    });
+
+
+  //res.render('index', { title: 'Facebook/Spotify App' });
 });
 
 module.exports = router;

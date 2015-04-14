@@ -7,3 +7,7 @@ block content
         Log in to Spotify <br />
   a(class='button', href='/facebookCallback').
         Log in to Facebook
+  ul
+    each user, i in userlist
+        li
+            a(href="mailto:#{user.email}")= user.username

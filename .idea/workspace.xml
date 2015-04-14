@@ -73,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/views/index.jade">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.5543478" vertical-offset="0" max-vertical-offset="368">
-              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -534,13 +534,7 @@
       <workItem from="1428006356881" duration="2082000" />
       <workItem from="1428067360822" duration="15220000" />
       <workItem from="1428426237850" duration="2376000" />
-      <workItem from="1428428673491" duration="12553000" />
-    </task>
-    <task id="LOCAL-00023" summary="Insure we write the the db after receiving the user data">
-      <created>1428075076440</created>
-      <option name="number" value="00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1428075076440</updated>
+      <workItem from="1428428673491" duration="12593000" />
     </task>
     <task id="LOCAL-00024" summary="fixing bug">
       <created>1428075219480</created>
@@ -830,11 +824,17 @@
       <option name="project" value="LOCAL" />
       <updated>1429026841628</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Show db">
+      <created>1429026908964</created>
+      <option name="number" value="00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1429026908964</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52393000" />
+    <option name="totallyTimeSpent" value="52433000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="9" width="1346" height="706" extended-state="0" />
@@ -1319,7 +1319,7 @@
     <entry file="file://$PROJECT_DIR$/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5543478" vertical-offset="0" max-vertical-offset="368">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding />
         </state>
       </provider>

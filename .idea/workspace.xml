@@ -32,7 +32,7 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.137931" vertical-offset="1252" max-vertical-offset="2584">
+            <state vertical-scroll-proportion="-13.103448" vertical-offset="963" max-vertical-offset="2584">
               <caret line="79" column="37" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="37" />
               <folding />
             </state>
@@ -62,8 +62,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41576087" vertical-offset="0" max-vertical-offset="782">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.46195653" vertical-offset="0" max-vertical-offset="799">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -534,13 +534,7 @@
       <workItem from="1428006356881" duration="2082000" />
       <workItem from="1428067360822" duration="15220000" />
       <workItem from="1428426237850" duration="2376000" />
-      <workItem from="1428428673491" duration="12281000" />
-    </task>
-    <task id="LOCAL-00020" summary="get user from spotify response">
-      <created>1428074247104</created>
-      <option name="number" value="00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1428074247104</updated>
+      <workItem from="1428428673491" duration="12425000" />
     </task>
     <task id="LOCAL-00021" summary="forgot to add url">
       <created>1428074347958</created>
@@ -830,11 +824,17 @@
       <option name="project" value="LOCAL" />
       <updated>1429026551779</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Show db">
+      <created>1429026638540</created>
+      <option name="number" value="00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1429026638540</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52121000" />
+    <option name="totallyTimeSpent" value="52265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="9" width="1346" height="706" extended-state="0" />
@@ -1292,14 +1292,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.137931" vertical-offset="1252" max-vertical-offset="2584">
-          <caret line="79" column="37" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
@@ -1316,10 +1308,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.103448" vertical-offset="963" max-vertical-offset="2584">
+          <caret line="79" column="37" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41576087" vertical-offset="0" max-vertical-offset="782">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.46195653" vertical-offset="0" max-vertical-offset="799">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding />
         </state>
       </provider>
